@@ -15,7 +15,7 @@ void loop() {
       Serial.println(Vout,3);
       Serial.print("Rdut: ");
       Serial.println(Rdut);
-
+  }
 }
 
 float calculateRdut(float Vin, float Vref, float Vout, float R2) {
