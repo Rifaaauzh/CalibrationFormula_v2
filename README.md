@@ -10,7 +10,7 @@ Calibration is the process of adjusting the output or measurement of an instrume
 
 **🗒Formula 1 : Rdut Formula**
 
-{Rdut} = {R2*(Vin - Vref)/(Vref - Vout)} 
+$\{Rdut} = {R2*(Vin - Vref)/(Vref - Vout)} \$
 
 Where:
 - **Rdut**: The calibrated resistance of the device under test.
@@ -27,7 +27,7 @@ Parameters:
 **🗒Formula 2 : Adjusting Measured Voltage**
 
 This formula is to adjusting voltage measured by device to be close with the value that was calculated using Formula 1.
-$\[ y = 0.9531x + 0.1642 ]\$
+$\ y = 0.9531x + 0.1642 \$
  
 Where:
 - **y**: Calculated Value
@@ -39,15 +39,18 @@ This formula is for the tangent line for the graph of calculated voltage. The ai
 
 - **Low-Tangent Formula**
   This is the tangent value when resistor is less than 1 Million.
-  y = 2.25 * 10^-6 - 0.15
+  
+  $\y = 2.25 * 10^-6 - 0.15\$
 
 - **Middle-Tangent Formula**
   This is the tangent value when resistor is between 1 Millon and 10 Million.
-  y = 9 * 10^-8 + 2.37
+  
+  $\y = 9 * 10^-8 + 2.37\$
 
 - **High-Tangent Formula**
   This is the tangent value when resistor is less than 10 Million.
-  y = 1.8 * 10^-9 + 2.892
+  
+ $\ y = 1.8 * 10^-9 + 2.892\$
 
 
 
