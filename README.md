@@ -19,13 +19,13 @@ Where:
 - **Vref**: Reference voltage.
 - **Vout**: Output voltage.
 
-**Parameters**
+Parameters
 - **R2**: 100K / 200K ohms
 - **Vin**: 12.0 volts
 - **Vref**: 3.0 volts
 
 **2. Formula 2 : Adjusting Measured Formula**
- y = 0.9531x + 0.1642
+\[ y = 0.9531x + 0.1642 \]
  
 Where:
 - **y**: Calculated Value
